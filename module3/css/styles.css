@@ -1,0 +1,73 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #0b4b0b;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+
+/**HEADER**/
+
+#header-nav {
+    background-color: #5e5d5c;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    text-align: left;
+}
+
+.navbar-brand h1 { /*FOOD LLC*/
+    color: #000000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#collapsable-nav {
+    margin-bottom: -10px;
+}
+#nav-list {
+    background-color: #38d3fa;
+}
+
+#nav-list hr{
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav-list a {
+    color: #000000;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #ffffff;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #0b4b0b;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+
+#content {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #38d3fa;
+}
+
+#main-content {
+    width: 100%;
+}
